@@ -1,0 +1,13 @@
+name: Mho
+version: 1.0
+main: dev.wintu.mho.Mho
+api-version: 1.16
+
+commands:
+  mho:
+    usage: /<command>
+    permission: mho.command
+
+permissions:
+  mho.command:
+    default: op
